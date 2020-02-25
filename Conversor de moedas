@@ -133,10 +133,10 @@ Widget buildTextField(string label, string prefix, TextEditingController c, Func
       controller: c,
      
                             decoration: InputDecoration(
-                              labelText: "Euros",
+                              labelText: "label",
                               labelStyle: TextStyle(color: Colors.amber)
                               border: OutlineInputBorder(),
-                              prefixText: "R\$"
+                              prefixText: "prefix"
                             ),
                             style: TextStyle(
                               color: Colors.amber, fontSize: 25.0
